@@ -97,6 +97,10 @@
       .footer a {
 	color: #ccccff;
       }
+      div.addthis_toolbox {
+	width:180px;
+	margin: 0 auto;
+      }
     </style>
   </head>
   <body>
@@ -179,8 +183,8 @@
 	  <!-- Bootstrap progress bar -->
 	  <!-- http://twitter.github.io/bootstrap/components.html#progress -->
 	  <div class="thermometer progress active">
-	    <div class="bar bar-success" stryle="width: 60%;"></div>
-	    <div class="bar bar-warning" stryle="width: 40%;"></div>
+	    <div class="bar bar-success" style="width: 60%;"></div>
+	    <div class="bar bar-warning" style="width: 40%;"></div>
 	  </div>
 	</div>
         </div>
@@ -191,10 +195,16 @@
 	  <button class="btn btn-success btn-large">Preorder</button>
 	</div>
 	<div class="span8 offset2 social">
-	  <!-- Social buttons are not included in default Bootstrap. -->
-	  <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-	  <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-	  <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+	  <!-- AddThis Button BEGIN -->
+	  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+	    <a class="addthis_button_preferred_1"></a>
+	    <a class="addthis_button_preferred_2"></a>
+	    <a class="addthis_button_preferred_3"></a>
+	    <a class="addthis_button_preferred_4"></a>
+	  </div>
+	  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52066f7b66e70813"></script>
+	  <!-- AddThis Button END -->
 	</div>
         </div>
       </div>
